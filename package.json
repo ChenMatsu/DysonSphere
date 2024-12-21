@@ -11,9 +11,12 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@react-three/drei": "^9.120.4",
+    "@react-three/fiber": "^8.17.10",
     "@remix-run/node": "^2.15.1",
     "@remix-run/react": "^2.15.1",
     "@remix-run/serve": "^2.15.1",
+    "dat.gui": "^0.7.9",
     "isbot": "^4.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -21,6 +24,7 @@
   },
   "devDependencies": {
     "@remix-run/dev": "^2.15.1",
+    "@types/dat.gui": "^0.7.13",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
     "@types/three": "^0.171.0",
