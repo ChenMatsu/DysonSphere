@@ -1,10 +1,10 @@
 import type { MetaFunction } from '@remix-run/node';
-import DysonSphere from '~/components/dyson-sphere';
+import SolarSystem from '~/components/solar-system';
 
 export const meta: MetaFunction = () => {
-  return [{ title: 'New Remix App' }, { name: 'description', content: 'Welcome to Remix!' }];
+  return [{ title: 'Solar System' }, { name: 'Solar System', content: 'Solar System with Dyson Sphere' }];
 };
 
 export default function Index() {
-  return <DysonSphere />;
+  return <SolarSystem />;
 }
